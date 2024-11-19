@@ -1,0 +1,1640 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F67K40 ]
+[d frameptr 4065 ]
+"97 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/tmr4.c
+[e E14222 . `uc
+TMR4_ROP_STARTS_TMRON 0
+TMR4_ROP_STARTS_TMRON_ERSHIGH 1
+TMR4_ROP_STARTS_TMRON_ERSLOW 2
+TMR4_ROP_RESETS_ERSBOTHEDGE 3
+TMR4_ROP_RESETS_ERSRISINGEDGE 4
+TMR4_ROP_RESETS_ERSFALLINGEDGE 5
+TMR4_ROP_RESETS_ERSLOW 6
+TMR4_ROP_RESETS_ERSHIGH 7
+TMR4_OS_STARTS_TMRON 8
+TMR4_OS_STARTS_ERSRISINGEDGE 9
+TMR4_OS_STARTS_ERSFALLINGEDGE 10
+TMR4_OS_STARTS_ERSBOTHEDGE 11
+TMR4_OS_STARTS_ERSFIRSTRISINGEDGE 12
+TMR4_OS_STARTS_ERSFIRSTFALLINGEDGE 13
+TMR4_OS_STARTS_ERSRISINGEDGEDETECT 14
+TMR4_OS_STARTS_ERSFALLINGEDGEDETECT 15
+TMR4_OS_STARTS_TMRON_ERSHIGH 22
+TMR4_OS_STARTS_TMRON_ERSLOW 23
+TMR4_MS_STARTS_TMRON_ERSRISINGEDGEDETECT 17
+TMR4_MS_STARTS_TMRON_ERSFALLINGEDGEDETECT 18
+TMR4_MS_STARTS_TMRON_ERSBOTHEDGE 19
+]
+"103
+[e E14245 . `uc
+TMR4_T4INPPS 0
+TMR4_T2POSTSCALED 1
+TMR4_RESERVED 2
+TMR4_T6POSTSCALED 3
+TMR4_T8POSTSCALED 4
+TMR4_CCP1_OUT 5
+TMR4_CCP2_OUT 6
+TMR4_CCP3_OUT 7
+TMR4_CCP4_OUT 8
+TMR4_CCP5_OUT 9
+TMR4_PWM6_OUT 10
+TMR4_PWM7_OUT 11
+TMR4_C1_OUT_SYNC 12
+TMR4_C2_OUT_SYNC 13
+TMR4_C3_OUT_SYNC 14
+TMR4_ZCD_OUTPUT 15
+]
+"201
+[e E14350 . `uc
+baby_out_fsr_channel 25
+channel_AN2 26
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"61 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/interrupt_manager.c
+[e E14222 . `uc
+NULL_ACTION 0
+STEPPER_STOP 1
+STEPPER_INCH_FORWARD_FULL 2
+STEPPER_INCH_BACKWARD_FULL 3
+STEPPER_INCH_FORWARD_HALF 4
+STEPPER_INCH_BACKWARD_HALF 5
+STEPPER_INCH_FORWARD_QUARTER 6
+STEPPER_INCH_BACKWARD_QUARTER 7
+STEPPER_INCH_FORWARD_EIGHTH 8
+STEPPER_INCH_BACKWARD_EIGHTH 9
+STEPPER_INCH_FORWARD_SIXTEENTH 10
+STEPPER_INCH_BACKWARD_SIXTEENTH 11
+STEPPER_FORWARD_UNTIL_STOP_FULL 12
+STEPPER_BACKWARD_UNTIL_STOP_FULL 13
+STEPPER_FORWARD_UNTIL_STOP_HALF 14
+STEPPER_BACKWARD_UNTIL_STOP_HALF 15
+STEPPER_FORWARD_UNTIL_STOP_QUARTER 16
+STEPPER_BACKWARD_UNTIL_STOP_QUARTER 17
+STEPPER_FORWARD_UNTIL_STOP_EIGHTH 18
+STEPPER_BACKWARD_UNTIL_STOP_EIGHTH 19
+STEPPER_FORWARD_UNTIL_STOP_SIXTEENTH 20
+STEPPER_BACKWARD_UNTIL_STOP_SIXTEENTH 21
+]
+"111 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/adcc.c
+[e E14223 . `uc
+baby_out_fsr_channel 25
+channel_AN2 26
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR_buf1 63
+]
+"79 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\main.c
+[e E14453 . `uc
+FORWARDS 0
+BACKWARDS 1
+]
+[e E14457 . `uc
+Full 1
+Half 2
+Quarter 4
+Eighth 8
+Sixteenth 16
+NullStep 0
+]
+"169
+[e E14224 . `uc
+NULL_ACTION 0
+STEPPER_STOP 1
+STEPPER_INCH_FORWARD_FULL 2
+STEPPER_INCH_BACKWARD_FULL 3
+STEPPER_INCH_FORWARD_HALF 4
+STEPPER_INCH_BACKWARD_HALF 5
+STEPPER_INCH_FORWARD_QUARTER 6
+STEPPER_INCH_BACKWARD_QUARTER 7
+STEPPER_INCH_FORWARD_EIGHTH 8
+STEPPER_INCH_BACKWARD_EIGHTH 9
+STEPPER_INCH_FORWARD_SIXTEENTH 10
+STEPPER_INCH_BACKWARD_SIXTEENTH 11
+STEPPER_FORWARD_UNTIL_STOP_FULL 12
+STEPPER_BACKWARD_UNTIL_STOP_FULL 13
+STEPPER_FORWARD_UNTIL_STOP_HALF 14
+STEPPER_BACKWARD_UNTIL_STOP_HALF 15
+STEPPER_FORWARD_UNTIL_STOP_QUARTER 16
+STEPPER_BACKWARD_UNTIL_STOP_QUARTER 17
+STEPPER_FORWARD_UNTIL_STOP_EIGHTH 18
+STEPPER_BACKWARD_UNTIL_STOP_EIGHTH 19
+STEPPER_FORWARD_UNTIL_STOP_SIXTEENTH 20
+STEPPER_BACKWARD_UNTIL_STOP_SIXTEENTH 21
+]
+"5 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\step/step.c
+[e E14453 . `uc
+FORWARDS 0
+BACKWARDS 1
+]
+[e E14457 . `uc
+Full 1
+Half 2
+Quarter 4
+Eighth 8
+Sixteenth 16
+NullStep 0
+]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"48 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"64 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"111
+[v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
+"129
+[v _ADCC_GetConversionResult ADCC_GetConversionResult `(us  1 e 2 0 ]
+"295
+[v _ADCC_ISR ADCC_ISR `(v  1 e 1 0 ]
+"304
+[v _ADCC_SetADIInterruptHandler ADCC_SetADIInterruptHandler `(v  1 e 1 0 ]
+"310
+[v _ADCC_DefaultInterruptHandler ADCC_DefaultInterruptHandler `(v  1 e 1 0 ]
+"57 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+"84
+[v _EUSART2_is_rx_ready EUSART2_is_rx_ready `(a  1 e 1 0 ]
+"94
+[v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
+"112
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+[v i2_EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+"56 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/eusart4.c
+[v _EUSART4_Initialize EUSART4_Initialize `(v  1 e 1 0 ]
+"111
+[v _EUSART4_Write EUSART4_Write `(v  1 e 1 0 ]
+"40 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/ext_int.c
+[v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
+"49
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+"60
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+"64
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"68
+[v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
+"77
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+"88
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+"92
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"96
+[v _INT2_ISR INT2_ISR `(v  1 e 1 0 ]
+"105
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+"114
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+"118
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"122
+[v _INT3_ISR INT3_ISR `(v  1 e 1 0 ]
+"131
+[v _INT3_CallBack INT3_CallBack `(v  1 e 1 0 ]
+"140
+[v _INT3_SetInterruptHandler INT3_SetInterruptHandler `(v  1 e 1 0 ]
+"144
+[v _INT3_DefaultInterruptHandler INT3_DefaultInterruptHandler `(v  1 e 1 0 ]
+"149
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+"63 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/interrupt_manager.c
+[v _get_INTERRUPT_STEPPER_BREAK_FLAG get_INTERRUPT_STEPPER_BREAK_FLAG `(a  1 e 1 0 ]
+"67
+[v _set_INTERRUPT_STEPPER_BREAK_FLAG set_INTERRUPT_STEPPER_BREAK_FLAG `(v  1 e 1 0 ]
+[v i2_set_INTERRUPT_STEPPER_BREAK_FLAG set_INTERRUPT_STEPPER_BREAK_FLAG `(v  1 e 1 0 ]
+"71
+[v _get_interruptAction get_interruptAction `(uc  1 e 1 0 ]
+"75
+[v _reset_interruptAction reset_interruptAction `(v  1 e 1 0 ]
+[v i2_reset_interruptAction reset_interruptAction `(v  1 e 1 0 ]
+"79
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"99
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"66
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"80
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"57 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"64 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+"90
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
+"64 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+"90
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+"61 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"121
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"132
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+"142
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"146
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"65 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+"109
+[v _TMR4_Start TMR4_Start `(v  1 e 1 0 ]
+[v i2_TMR4_Start TMR4_Start `(v  1 e 1 0 ]
+"120
+[v _TMR4_Stop TMR4_Stop `(v  1 e 1 0 ]
+"131
+[v _TMR4_Counter8BitGet TMR4_Counter8BitGet `(uc  1 e 1 0 ]
+"145
+[v _TMR4_Counter8BitSet TMR4_Counter8BitSet `(v  1 e 1 0 ]
+"156
+[v _TMR4_Period8BitSet TMR4_Period8BitSet `(v  1 e 1 0 ]
+"166
+[v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
+"184
+[v _TMR4_CallBack TMR4_CallBack `(v  1 e 1 0 ]
+"194
+[v _TMR4_SetInterruptHandler TMR4_SetInterruptHandler `(v  1 e 1 0 ]
+"198
+[v _TMR4_DefaultInterruptHandler TMR4_DefaultInterruptHandler `(v  1 e 1 0 ]
+"8 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\pumps/pumps.c
+[v _initPumps initPumps `(v  1 e 1 0 ]
+"27
+[v _setPump1PWM setPump1PWM `(v  1 e 1 0 ]
+"43
+[v _setPump2PWM setPump2PWM `(v  1 e 1 0 ]
+"5 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\step/step.c
+[v _Step Step `(v  1 e 1 0 ]
+"62
+[v _moveUntilZ moveUntilZ `(v  1 e 1 0 ]
+"96
+[v _inchForwards inchForwards `(v  1 e 1 0 ]
+"138
+[v _inchBackwards inchBackwards `(v  1 e 1 0 ]
+"175
+[v _stepperSleep stepperSleep `(v  1 e 1 0 ]
+"183
+[v _stepperIsAsleep stepperIsAsleep `(a  1 e 1 0 ]
+"193
+[v _setStepSize setStepSize `(v  1 e 1 0 ]
+"243
+[v _setDirection setDirection `(v  1 e 1 0 ]
+[s S238 . 1 `uc 1 PIN 1 0 :3:0 
+`uc 1 PORT 1 0 :1:3 
+]
+"92 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f67k40.h
+[s S241 . 1 `uc 1 INT0PPS 1 0 :6:0 
+]
+[s S243 . 1 `uc 1 INT0PPS0 1 0 :1:0 
+`uc 1 INT0PPS1 1 0 :1:1 
+`uc 1 INT0PPS2 1 0 :1:2 
+`uc 1 INT0PPS3 1 0 :1:3 
+]
+[u S248 . 1 `S238 1 . 1 0 `S241 1 . 1 0 `S243 1 . 1 0 ]
+[v _INT0PPSbits INT0PPSbits `VES248  1 e 1 @3568 ]
+[s S179 . 1 `uc 1 PIN 1 0 :3:0 
+`uc 1 PORT 1 0 :2:3 
+]
+"153
+[s S182 . 1 `uc 1 INT1PPS 1 0 :6:0 
+]
+[s S184 . 1 `uc 1 INT1PPS0 1 0 :1:0 
+`uc 1 INT1PPS1 1 0 :1:1 
+`uc 1 INT1PPS2 1 0 :1:2 
+`uc 1 INT1PPS3 1 0 :1:3 
+`uc 1 INT1PPS4 1 0 :1:4 
+]
+[u S190 . 1 `S179 1 . 1 0 `S182 1 . 1 0 `S184 1 . 1 0 ]
+[v _INT1PPSbits INT1PPSbits `VES190  1 e 1 @3569 ]
+"219
+[s S266 . 1 `uc 1 INT2PPS 1 0 :6:0 
+]
+[s S268 . 1 `uc 1 INT2PPS0 1 0 :1:0 
+`uc 1 INT2PPS1 1 0 :1:1 
+`uc 1 INT2PPS2 1 0 :1:2 
+`uc 1 INT2PPS3 1 0 :1:3 
+`uc 1 INT2PPS4 1 0 :1:4 
+]
+[u S274 . 1 `S179 1 . 1 0 `S266 1 . 1 0 `S268 1 . 1 0 ]
+[v _INT2PPSbits INT2PPSbits `VES274  1 e 1 @3570 ]
+[s S206 . 1 `uc 1 PIN 1 0 :3:0 
+`uc 1 PORT 1 0 :3:3 
+]
+"286
+[s S209 . 1 `uc 1 INT3PPS 1 0 :6:0 
+]
+[s S211 . 1 `uc 1 INT3PPS0 1 0 :1:0 
+`uc 1 INT3PPS1 1 0 :1:1 
+`uc 1 INT3PPS2 1 0 :1:2 
+`uc 1 INT3PPS3 1 0 :1:3 
+`uc 1 INT3PPS4 1 0 :1:4 
+`uc 1 INT3PPS5 1 0 :1:5 
+]
+[u S218 . 1 `S206 1 . 1 0 `S209 1 . 1 0 `S211 1 . 1 0 ]
+[v _INT3PPSbits INT3PPSbits `VES218  1 e 1 @3571 ]
+"2776
+[s S293 . 1 `uc 1 RX2PPS 1 0 :6:0 
+]
+[s S295 . 1 `uc 1 RX2PPS0 1 0 :1:0 
+`uc 1 RX2PPS1 1 0 :1:1 
+`uc 1 RX2PPS2 1 0 :1:2 
+`uc 1 RX2PPS3 1 0 :1:3 
+`uc 1 RX2PPS4 1 0 :1:4 
+`uc 1 RX2PPS5 1 0 :1:5 
+]
+[u S302 . 1 `S206 1 . 1 0 `S293 1 . 1 0 `S295 1 . 1 0 ]
+[v _RX2PPSbits RX2PPSbits `VES302  1 e 1 @3601 ]
+[s S1072 . 1 `uc 1 INT0IE 1 0 :1:0 
+`uc 1 INT1IE 1 0 :1:1 
+`uc 1 INT2IE 1 0 :1:2 
+`uc 1 INT3IE 1 0 :1:3 
+`uc 1 IOCIE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+"4557
+[u S1079 . 1 `S1072 1 . 1 0 ]
+[v _PIE0bits PIE0bits `VES1079  1 e 1 @3625 ]
+[s S1365 . 1 `uc 1 ADIE 1 0 :1:0 
+`uc 1 ADTIE 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIE 1 0 :1:6 
+`uc 1 OSCFIE 1 0 :1:7 
+]
+"4610
+[s S1371 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIE 1 0 :1:7 
+]
+[u S1374 . 1 `S1365 1 . 1 0 `S1371 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES1374  1 e 1 @3626 ]
+[s S1228 . 1 `uc 1 SSP1IE 1 0 :1:0 
+`uc 1 BCL1IE 1 0 :1:1 
+`uc 1 SSP2IE 1 0 :1:2 
+`uc 1 BCL2IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 TX2IE 1 0 :1:6 
+`uc 1 RC2IE 1 0 :1:7 
+]
+"4724
+[s S1237 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S1243 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S1248 . 1 `S1228 1 . 1 0 `S1237 1 . 1 0 `S1243 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES1248  1 e 1 @3628 ]
+[s S667 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR3IE 1 0 :1:2 
+`uc 1 TMR4IE 1 0 :1:3 
+`uc 1 TMR5IE 1 0 :1:4 
+`uc 1 TMR6IE 1 0 :1:5 
+`uc 1 TMR7IE 1 0 :1:6 
+`uc 1 TMR8IE 1 0 :1:7 
+]
+"4871
+[u S676 . 1 `S667 1 . 1 0 ]
+[v _PIE5bits PIE5bits `VES676  1 e 1 @3630 ]
+[s S1055 . 1 `uc 1 INT0IF 1 0 :1:0 
+`uc 1 INT1IF 1 0 :1:1 
+`uc 1 INT2IF 1 0 :1:2 
+`uc 1 INT3IF 1 0 :1:3 
+`uc 1 IOCIF 1 0 :1:4 
+`uc 1 TMR0IF 1 0 :1:5 
+]
+"5102
+[u S1062 . 1 `S1055 1 . 1 0 ]
+[v _PIR0bits PIR0bits `VES1062  1 e 1 @3635 ]
+[s S1387 . 1 `uc 1 ADIF 1 0 :1:0 
+`uc 1 ADTIF 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIF 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"5155
+[s S1393 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S1396 . 1 `S1387 1 . 1 0 `S1393 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES1396  1 e 1 @3636 ]
+[s S501 . 1 `uc 1 SSP1IF 1 0 :1:0 
+`uc 1 BCL1IF 1 0 :1:1 
+`uc 1 SSP2IF 1 0 :1:2 
+`uc 1 BCL2IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 TX2IF 1 0 :1:6 
+`uc 1 RC2IF 1 0 :1:7 
+]
+"5262
+[s S510 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S515 . 1 `S501 1 . 1 0 `S510 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES515  1 e 1 @3638 ]
+[s S2252 . 1 `uc 1 TX3IF 1 0 :1:0 
+`uc 1 RC3IF 1 0 :1:1 
+`uc 1 TX4IF 1 0 :1:2 
+`uc 1 RC4IF 1 0 :1:3 
+`uc 1 TX5IF 1 0 :1:4 
+`uc 1 RC5IF 1 0 :1:5 
+]
+"5332
+[u S2259 . 1 `S2252 1 . 1 0 ]
+[v _PIR4bits PIR4bits `VES2259  1 e 1 @3639 ]
+[s S646 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR3IF 1 0 :1:2 
+`uc 1 TMR4IF 1 0 :1:3 
+`uc 1 TMR5IF 1 0 :1:4 
+`uc 1 TMR6IF 1 0 :1:5 
+`uc 1 TMR7IF 1 0 :1:6 
+`uc 1 TMR8IF 1 0 :1:7 
+]
+"5384
+[u S655 . 1 `S646 1 . 1 0 ]
+[v _PIR5bits PIR5bits `VES655  1 e 1 @3640 ]
+"6186
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3651 ]
+"6326
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3653 ]
+"6478
+[v _OSCEN OSCEN `VEuc  1 e 1 @3655 ]
+"6529
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3656 ]
+"6587
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3657 ]
+"6694
+[v _PMD0 PMD0 `VEuc  1 e 1 @3660 ]
+"6771
+[v _PMD1 PMD1 `VEuc  1 e 1 @3661 ]
+"6841
+[v _PMD2 PMD2 `VEuc  1 e 1 @3662 ]
+"6895
+[v _PMD3 PMD3 `VEuc  1 e 1 @3663 ]
+"6946
+[v _PMD4 PMD4 `VEuc  1 e 1 @3664 ]
+"7002
+[v _PMD5 PMD5 `VEuc  1 e 1 @3665 ]
+"7758
+[v _RB6PPS RB6PPS `VEuc  1 e 1 @3680 ]
+"8658
+[v _RE0PPS RE0PPS `VEuc  1 e 1 @3698 ]
+"8708
+[v _RE1PPS RE1PPS `VEuc  1 e 1 @3699 ]
+"9708
+[v _RG6PPS RG6PPS `VEuc  1 e 1 @3720 ]
+"10132
+[v _ODCONA ODCONA `VEuc  1 e 1 @3728 ]
+"10194
+[v _WPUA WPUA `VEuc  1 e 1 @3729 ]
+"10256
+[v _ANSELA ANSELA `VEuc  1 e 1 @3730 ]
+"10628
+[v _ODCONB ODCONB `VEuc  1 e 1 @3736 ]
+"10690
+[v _WPUB WPUB `VEuc  1 e 1 @3737 ]
+"10752
+[v _ANSELB ANSELB `VEuc  1 e 1 @3738 ]
+"11124
+[v _ODCONC ODCONC `VEuc  1 e 1 @3744 ]
+"11186
+[v _WPUC WPUC `VEuc  1 e 1 @3745 ]
+"11372
+[v _ODCOND ODCOND `VEuc  1 e 1 @3749 ]
+"11434
+[v _WPUD WPUD `VEuc  1 e 1 @3750 ]
+"11496
+[v _ANSELD ANSELD `VEuc  1 e 1 @3751 ]
+"11868
+[v _ODCONE ODCONE `VEuc  1 e 1 @3757 ]
+"11930
+[v _WPUE WPUE `VEuc  1 e 1 @3758 ]
+"11992
+[v _ANSELE ANSELE `VEuc  1 e 1 @3759 ]
+"12178
+[v _ODCONF ODCONF `VEuc  1 e 1 @3762 ]
+"12240
+[v _WPUF WPUF `VEuc  1 e 1 @3763 ]
+"12302
+[v _ANSELF ANSELF `VEuc  1 e 1 @3764 ]
+"12546
+[v _ODCONG ODCONG `VEuc  1 e 1 @3770 ]
+"12603
+[v _WPUG WPUG `VEuc  1 e 1 @3771 ]
+"12665
+[v _ANSELG ANSELG `VEuc  1 e 1 @3772 ]
+"12846
+[v _ODCONH ODCONH `VEuc  1 e 1 @3775 ]
+"12908
+[v _WPUH WPUH `VEuc  1 e 1 @3776 ]
+"15782
+[v _RC4REG RC4REG `VEuc  1 e 1 @3811 ]
+"15820
+[v _TX4REG TX4REG `VEuc  1 e 1 @3812 ]
+"15865
+[v _SP4BRGL SP4BRGL `VEuc  1 e 1 @3813 ]
+"15903
+[v _SP4BRGH SP4BRGH `VEuc  1 e 1 @3814 ]
+"15941
+[v _RC4STA RC4STA `VEuc  1 e 1 @3815 ]
+[s S566 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"15963
+[u S2299 . 1 `S566 1 . 1 0 ]
+[v _RC4STAbits RC4STAbits `VES2299  1 e 1 @3815 ]
+"16063
+[v _TX4STA TX4STA `VEuc  1 e 1 @3816 ]
+[s S533 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"16085
+[u S2278 . 1 `S533 1 . 1 0 ]
+[v _TX4STAbits TX4STAbits `VES2278  1 e 1 @3816 ]
+"16185
+[v _BAUD4CON BAUD4CON `VEuc  1 e 1 @3817 ]
+"16888
+[v _RC2REG RC2REG `VEuc  1 e 1 @3825 ]
+"16926
+[v _TX2REG TX2REG `VEuc  1 e 1 @3826 ]
+"16971
+[v _SP2BRGL SP2BRGL `VEuc  1 e 1 @3827 ]
+"17009
+[v _SP2BRGH SP2BRGH `VEuc  1 e 1 @3828 ]
+"17047
+[v _RC2STA RC2STA `VEuc  1 e 1 @3829 ]
+"17080
+[s S575 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_92 1 0 :1:6 
+]
+[s S578 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC92 1 0 :1:6 
+]
+[s S581 . 1 `uc 1 RCD82 1 0 :1:0 
+]
+[u S583 . 1 `S566 1 . 1 0 `S575 1 . 1 0 `S578 1 . 1 0 `S581 1 . 1 0 ]
+[v _RC2STAbits RC2STAbits `VES583  1 e 1 @3829 ]
+"17221
+[v _TX2STA TX2STA `VEuc  1 e 1 @3830 ]
+"17250
+[s S542 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_92 1 0 :1:6 
+]
+[s S545 . 1 `uc 1 TXD82 1 0 :1:0 
+]
+[u S547 . 1 `S533 1 . 1 0 `S542 1 . 1 0 `S545 1 . 1 0 ]
+[v _TX2STAbits TX2STAbits `VES547  1 e 1 @3830 ]
+"17377
+[v _BAUD2CON BAUD2CON `VEuc  1 e 1 @3831 ]
+"26110
+[v _ADACT ADACT `VEuc  1 e 1 @3926 ]
+"26162
+[v _ADCLK ADCLK `VEuc  1 e 1 @3927 ]
+"26220
+[v _ADREF ADREF `VEuc  1 e 1 @3928 ]
+"26261
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @3929 ]
+[s S1817 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+"26275
+[u S1823 . 1 `S1817 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES1823  1 e 1 @3929 ]
+"26300
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @3930 ]
+[s S1753 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+"26322
+[s S1758 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+]
+[u S1766 . 1 `S1753 1 . 1 0 `S1758 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES1766  1 e 1 @3930 ]
+"26377
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @3931 ]
+[s S1722 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+"26398
+[s S1726 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+[u S1734 . 1 `S1722 1 . 1 0 `S1726 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES1734  1 e 1 @3931 ]
+"26448
+[v _ADACQ ADACQ `VEuc  1 e 1 @3932 ]
+"26518
+[v _ADCAP ADCAP `VEuc  1 e 1 @3933 ]
+"26570
+[v _ADPRE ADPRE `VEuc  1 e 1 @3934 ]
+"26640
+[v _ADPCH ADPCH `VEuc  1 e 1 @3935 ]
+"26698
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @3936 ]
+[s S1668 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"26733
+[s S1677 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+]
+[s S1681 . 1 `uc 1 DONE 1 0 :1:0 
+]
+[s S1683 . 1 `uc 1 GO_NOT_DONE 1 0 :1:0 
+]
+[s S1685 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+]
+[s S1687 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 ADCAL 1 0 :1:7 
+]
+[u S1690 . 1 `S1668 1 . 1 0 `S1677 1 . 1 0 `S1681 1 . 1 0 `S1683 1 . 1 0 `S1685 1 . 1 0 `S1687 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES1690  1 e 1 @3936 ]
+"26800
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @3937 ]
+"26870
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @3938 ]
+"26947
+[v _ADRESL ADRESL `VEuc  1 e 1 @3939 ]
+"27017
+[v _ADRESH ADRESH `VEuc  1 e 1 @3940 ]
+"27079
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @3941 ]
+[s S1785 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+"27099
+[s S1792 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+]
+[u S1796 . 1 `S1785 1 . 1 0 `S1792 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES1796  1 e 1 @3941 ]
+"27144
+[v _ADRPT ADRPT `VEuc  1 e 1 @3942 ]
+"27214
+[v _ADCNT ADCNT `VEuc  1 e 1 @3943 ]
+"27291
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @3944 ]
+"27361
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @3945 ]
+"27438
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @3946 ]
+"27508
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @3947 ]
+"27585
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @3948 ]
+"27655
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @3949 ]
+"27732
+[v _ADERRL ADERRL `VEuc  1 e 1 @3950 ]
+"27802
+[v _ADERRH ADERRH `VEuc  1 e 1 @3951 ]
+"27879
+[v _ADACCL ADACCL `VEuc  1 e 1 @3952 ]
+"27949
+[v _ADACCH ADACCH `VEuc  1 e 1 @3953 ]
+"28026
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @3954 ]
+"28096
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @3955 ]
+"28513
+[v _LATA LATA `VEuc  1 e 1 @3961 ]
+[s S2068 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"28540
+[s S2077 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S2086 . 1 `S2068 1 . 1 0 `S2077 1 . 1 0 ]
+[v _LATAbits LATAbits `VES2086  1 e 1 @3961 ]
+"28625
+[v _LATB LATB `VEuc  1 e 1 @3962 ]
+"28737
+[v _LATC LATC `VEuc  1 e 1 @3963 ]
+[s S2026 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"28764
+[s S2035 . 1 `uc 1 LC0 1 0 :1:0 
+`uc 1 LC1 1 0 :1:1 
+`uc 1 LC2 1 0 :1:2 
+`uc 1 LC3 1 0 :1:3 
+`uc 1 LC4 1 0 :1:4 
+`uc 1 LC5 1 0 :1:5 
+`uc 1 LC6 1 0 :1:6 
+`uc 1 LC7 1 0 :1:7 
+]
+[u S2044 . 1 `S2026 1 . 1 0 `S2035 1 . 1 0 ]
+[v _LATCbits LATCbits `VES2044  1 e 1 @3963 ]
+"28849
+[v _LATD LATD `VEuc  1 e 1 @3964 ]
+"28961
+[v _LATE LATE `VEuc  1 e 1 @3965 ]
+"29073
+[v _LATF LATF `VEuc  1 e 1 @3966 ]
+[s S65 . 1 `uc 1 LATF0 1 0 :1:0 
+`uc 1 LATF1 1 0 :1:1 
+`uc 1 LATF2 1 0 :1:2 
+`uc 1 LATF3 1 0 :1:3 
+`uc 1 LATF4 1 0 :1:4 
+`uc 1 LATF5 1 0 :1:5 
+`uc 1 LATF6 1 0 :1:6 
+`uc 1 LATF7 1 0 :1:7 
+]
+"29100
+[s S74 . 1 `uc 1 LF0 1 0 :1:0 
+`uc 1 LF1 1 0 :1:1 
+`uc 1 LF2 1 0 :1:2 
+`uc 1 LF3 1 0 :1:3 
+`uc 1 LF4 1 0 :1:4 
+`uc 1 LF5 1 0 :1:5 
+`uc 1 LF6 1 0 :1:6 
+`uc 1 LF7 1 0 :1:7 
+]
+[u S83 . 1 `S65 1 . 1 0 `S74 1 . 1 0 ]
+[v _LATFbits LATFbits `VES83  1 e 1 @3966 ]
+"29185
+[v _LATG LATG `VEuc  1 e 1 @3967 ]
+[s S31 . 1 `uc 1 LATG0 1 0 :1:0 
+`uc 1 LATG1 1 0 :1:1 
+`uc 1 LATG2 1 0 :1:2 
+`uc 1 LATG3 1 0 :1:3 
+`uc 1 LATG4 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 LATG6 1 0 :1:6 
+`uc 1 LATG7 1 0 :1:7 
+]
+"29209
+[s S40 . 1 `uc 1 LG0 1 0 :1:0 
+`uc 1 LG1 1 0 :1:1 
+`uc 1 LG2 1 0 :1:2 
+`uc 1 LG3 1 0 :1:3 
+`uc 1 LG4 1 0 :1:4 
+]
+[u S46 . 1 `S31 1 . 1 0 `S40 1 . 1 0 ]
+[v _LATGbits LATGbits `VES46  1 e 1 @3967 ]
+"29274
+[v _LATH LATH `VEuc  1 e 1 @3968 ]
+[s S2142 . 1 `uc 1 LATH0 1 0 :1:0 
+`uc 1 LATH1 1 0 :1:1 
+`uc 1 LATH2 1 0 :1:2 
+`uc 1 LATH3 1 0 :1:3 
+]
+"29309
+[s S2147 . 1 `uc 1 LH0 1 0 :1:0 
+`uc 1 LH1 1 0 :1:1 
+`uc 1 LH2 1 0 :1:2 
+`uc 1 LH3 1 0 :1:3 
+]
+[s S2152 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LH4 1 0 :1:4 
+]
+[s S2155 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LH5 1 0 :1:5 
+]
+[s S2158 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 LH6 1 0 :1:6 
+]
+[s S2161 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 LH7 1 0 :1:7 
+]
+[u S2164 . 1 `S2142 1 . 1 0 `S2147 1 . 1 0 `S2152 1 . 1 0 `S2155 1 . 1 0 `S2158 1 . 1 0 `S2161 1 . 1 0 ]
+[v _LATHbits LATHbits `VES2164  1 e 1 @3968 ]
+"29374
+[v _TRISA TRISA `VEuc  1 e 1 @3969 ]
+"29496
+[v _TRISB TRISB `VEuc  1 e 1 @3970 ]
+"29618
+[v _TRISC TRISC `VEuc  1 e 1 @3971 ]
+"29740
+[v _TRISD TRISD `VEuc  1 e 1 @3972 ]
+"29862
+[v _TRISE TRISE `VEuc  1 e 1 @3973 ]
+"29984
+[v _TRISF TRISF `VEuc  1 e 1 @3974 ]
+"30046
+[v _TRISG TRISG `VEuc  1 e 1 @3975 ]
+"30103
+[v _TRISH TRISH `VEuc  1 e 1 @3976 ]
+[s S2108 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"30165
+[s S2117 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 LVDIN 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S2123 . 1 `S2108 1 . 1 0 `S2117 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES2123  1 e 1 @3977 ]
+[s S1321 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"30246
+[s S1330 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S1333 . 1 `S1321 1 . 1 0 `S1330 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES1333  1 e 1 @3978 ]
+"34224
+[v _CCPR2L CCPR2L `VEuc  1 e 1 @4005 ]
+"34244
+[v _CCPR2H CCPR2H `VEuc  1 e 1 @4006 ]
+"34264
+[v _CCP2CON CCP2CON `VEuc  1 e 1 @4007 ]
+[s S422 . 1 `uc 1 MODE 1 0 :4:0 
+`uc 1 FMT 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"34301
+[s S428 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+]
+"34301
+[s S996 . 1 `uc 1 CCP2MODE 1 0 :4:0 
+`uc 1 CCP2FMT 1 0 :1:4 
+`uc 1 CCP2OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP2EN 1 0 :1:7 
+]
+"34301
+[s S1002 . 1 `uc 1 CCP2MODE0 1 0 :1:0 
+`uc 1 CCP2MODE1 1 0 :1:1 
+`uc 1 CCP2MODE2 1 0 :1:2 
+`uc 1 CCP2MODE3 1 0 :1:3 
+]
+"34301
+[s S1007 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 P2M1 1 0 :1:7 
+]
+"34301
+[u S1010 . 1 `S422 1 . 1 0 `S428 1 . 1 0 `S996 1 . 1 0 `S1002 1 . 1 0 `S1007 1 . 1 0 ]
+"34301
+"34301
+[v _CCP2CONbits CCP2CONbits `VES1010  1 e 1 @4007 ]
+"34454
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @4009 ]
+"34474
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @4010 ]
+"34494
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @4011 ]
+"34531
+"34531
+[s S433 . 1 `uc 1 CCP1MODE 1 0 :4:0 
+`uc 1 CCP1FMT 1 0 :1:4 
+`uc 1 CCP1OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 CCP1EN 1 0 :1:7 
+]
+"34531
+[s S439 . 1 `uc 1 CCP1MODE0 1 0 :1:0 
+`uc 1 CCP1MODE1 1 0 :1:1 
+`uc 1 CCP1MODE2 1 0 :1:2 
+`uc 1 CCP1MODE3 1 0 :1:3 
+]
+"34531
+[s S444 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 P1M1 1 0 :1:7 
+]
+"34531
+[u S447 . 1 `S422 1 . 1 0 `S428 1 . 1 0 `S433 1 . 1 0 `S439 1 . 1 0 `S444 1 . 1 0 ]
+"34531
+"34531
+[v _CCP1CONbits CCP1CONbits `VES447  1 e 1 @4011 ]
+[s S390 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 C3TSEL0 1 0 :1:4 
+`uc 1 C3TSEL1 1 0 :1:5 
+`uc 1 C4TSEL0 1 0 :1:6 
+`uc 1 C4TSEL1 1 0 :1:7 
+]
+"34700
+[s S399 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 C3TSEL 1 0 :2:4 
+`uc 1 C4TSEL 1 0 :2:6 
+]
+"34700
+[u S404 . 1 `S390 1 . 1 0 `S399 1 . 1 0 ]
+"34700
+"34700
+[v _CCPTMRS0bits CCPTMRS0bits `VES404  1 e 1 @4013 ]
+"35377
+[v _T4TMR T4TMR `VEuc  1 e 1 @4021 ]
+"35382
+[v _TMR4 TMR4 `VEuc  1 e 1 @4021 ]
+"35431
+[v _T4PR T4PR `VEuc  1 e 1 @4022 ]
+"35436
+[v _PR4 PR4 `VEuc  1 e 1 @4022 ]
+"35485
+[v _T4CON T4CON `VEuc  1 e 1 @4023 ]
+[s S822 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 CKPS 1 0 :3:4 
+`uc 1 ON 1 0 :1:7 
+]
+"35521
+[s S826 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 CKPS0 1 0 :1:4 
+`uc 1 CKPS1 1 0 :1:5 
+`uc 1 CKPS2 1 0 :1:6 
+]
+"35521
+[s S834 . 1 `uc 1 T4OUTPS 1 0 :4:0 
+`uc 1 T4CKPS 1 0 :3:4 
+`uc 1 T4ON 1 0 :1:7 
+]
+"35521
+[s S838 . 1 `uc 1 T4OUTPS0 1 0 :1:0 
+`uc 1 T4OUTPS1 1 0 :1:1 
+`uc 1 T4OUTPS2 1 0 :1:2 
+`uc 1 T4OUTPS3 1 0 :1:3 
+`uc 1 T4CKPS0 1 0 :1:4 
+`uc 1 T4CKPS1 1 0 :1:5 
+`uc 1 T4CKPS2 1 0 :1:6 
+`uc 1 TMR4ON 1 0 :1:7 
+]
+"35521
+[u S847 . 1 `S822 1 . 1 0 `S826 1 . 1 0 `S834 1 . 1 0 `S838 1 . 1 0 ]
+"35521
+"35521
+[v _T4CONbits T4CONbits `VES847  1 e 1 @4023 ]
+"35631
+[v _T4HLT T4HLT `VEuc  1 e 1 @4024 ]
+[s S721 . 1 `uc 1 MODE 1 0 :5:0 
+`uc 1 CKSYNC 1 0 :1:5 
+`uc 1 CKPOL 1 0 :1:6 
+`uc 1 PSYNC 1 0 :1:7 
+]
+"35664
+[s S726 . 1 `uc 1 MODE0 1 0 :1:0 
+`uc 1 MODE1 1 0 :1:1 
+`uc 1 MODE2 1 0 :1:2 
+`uc 1 MODE3 1 0 :1:3 
+`uc 1 MODE4 1 0 :1:4 
+]
+"35664
+[s S732 . 1 `uc 1 T4MODE 1 0 :5:0 
+`uc 1 T4CKSYNC 1 0 :1:5 
+`uc 1 T4CKPOL 1 0 :1:6 
+`uc 1 T4PSYNC 1 0 :1:7 
+]
+"35664
+[s S737 . 1 `uc 1 T4MODE0 1 0 :1:0 
+`uc 1 T4MODE1 1 0 :1:1 
+`uc 1 T4MODE2 1 0 :1:2 
+`uc 1 T4MODE3 1 0 :1:3 
+`uc 1 T4MODE4 1 0 :1:4 
+]
+"35664
+[u S743 . 1 `S721 1 . 1 0 `S726 1 . 1 0 `S732 1 . 1 0 `S737 1 . 1 0 ]
+"35664
+"35664
+[v _T4HLTbits T4HLTbits `VES743  1 e 1 @4024 ]
+"35759
+[v _T4CLKCON T4CLKCON `VEuc  1 e 1 @4025 ]
+"35839
+[v _T4RST T4RST `VEuc  1 e 1 @4026 ]
+[s S788 . 1 `uc 1 RSEL 1 0 :4:0 
+]
+"35864
+[s S790 . 1 `uc 1 RSEL0 1 0 :1:0 
+`uc 1 RSEL1 1 0 :1:1 
+`uc 1 RSEL2 1 0 :1:2 
+`uc 1 RSEL3 1 0 :1:3 
+]
+"35864
+[s S795 . 1 `uc 1 T4RSEL 1 0 :4:0 
+]
+"35864
+[s S797 . 1 `uc 1 T4RSEL0 1 0 :1:0 
+`uc 1 T4RSEL1 1 0 :1:1 
+`uc 1 T4RSEL2 1 0 :1:2 
+`uc 1 T4RSEL3 1 0 :1:3 
+]
+"35864
+[u S802 . 1 `S788 1 . 1 0 `S790 1 . 1 0 `S795 1 . 1 0 `S797 1 . 1 0 ]
+"35864
+"35864
+[v _T4RSTbits T4RSTbits `VES802  1 e 1 @4026 ]
+"39242
+[v _TMR0L TMR0L `VEuc  1 e 1 @4051 ]
+"39380
+[v _TMR0H TMR0H `VEuc  1 e 1 @4052 ]
+"39634
+[v _T0CON0 T0CON0 `VEuc  1 e 1 @4053 ]
+[s S1100 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T016BIT 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+"39654
+[s S1106 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+"39654
+[u S1111 . 1 `S1100 1 . 1 0 `S1106 1 . 1 0 ]
+"39654
+"39654
+[v _T0CON0bits T0CON0bits `VES1111  1 e 1 @4053 ]
+"39699
+[v _T0CON1 T0CON1 `VEuc  1 e 1 @4054 ]
+[s S1189 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 INT3EDG 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"40553
+[s S1198 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"40553
+[s S1202 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"40553
+[u S1206 . 1 `S1189 1 . 1 0 `S1198 1 . 1 0 `S1202 1 . 1 0 ]
+"40553
+"40553
+[v _INTCONbits INTCONbits `VES1206  1 e 1 @4082 ]
+"58 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/adcc.c
+[v _ADCC_ADI_InterruptHandler ADCC_ADI_InterruptHandler `*.38(v  1 e 3 0 ]
+"35 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/ext_int.c
+[v _INT0_InterruptHandler INT0_InterruptHandler `*.38(v  1 e 3 0 ]
+"36
+[v _INT1_InterruptHandler INT1_InterruptHandler `*.38(v  1 e 3 0 ]
+"37
+[v _INT2_InterruptHandler INT2_InterruptHandler `*.38(v  1 e 3 0 ]
+"38
+[v _INT3_InterruptHandler INT3_InterruptHandler `*.38(v  1 e 3 0 ]
+"59 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/interrupt_manager.c
+[v _UART_RX_in UART_RX_in `VEuc  1 s 1 UART_RX_in ]
+"60
+[v _INTERRUPT_STEPPER_BREAK_FLAG INTERRUPT_STEPPER_BREAK_FLAG `VEa  1 s 1 INTERRUPT_STEPPER_BREAK_FLAG ]
+"61
+[v _interruptAction interruptAction `VEE14222  1 s 1 interruptAction ]
+"59 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.38(v  1 e 3 0 ]
+"59 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/tmr4.c
+[v _TMR4_InterruptHandler TMR4_InterruptHandler `*.38(v  1 e 3 0 ]
+[s S24 . 4 `us 1 Pump1_PWM 2 0 `us 1 Pump2_PWM 2 2 ]
+"6 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\pumps/pumps.c
+[v _Pumps Pumps `VES24  1 s 4 Pumps ]
+"48 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"171
+} 0
+"67 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/interrupt_manager.c
+[v _set_INTERRUPT_STEPPER_BREAK_FLAG set_INTERRUPT_STEPPER_BREAK_FLAG `(v  1 e 1 0 ]
+{
+[v set_INTERRUPT_STEPPER_BREAK_FLAG@in in `a  1 a 1 wreg ]
+[v set_INTERRUPT_STEPPER_BREAK_FLAG@in in `a  1 a 1 wreg ]
+[v set_INTERRUPT_STEPPER_BREAK_FLAG@in in `a  1 a 1 12 ]
+"69
+} 0
+"75
+[v _reset_interruptAction reset_interruptAction `(v  1 e 1 0 ]
+{
+"77
+} 0
+"62 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\step/step.c
+[v _moveUntilZ moveUntilZ `(v  1 e 1 0 ]
+{
+[v moveUntilZ@dir dir `E14453  1 a 1 wreg ]
+[v moveUntilZ@dir dir `E14453  1 a 1 wreg ]
+[v moveUntilZ@size size `E14457  1 p 1 15 ]
+[v moveUntilZ@dir dir `E14453  1 a 1 17 ]
+"75
+} 0
+"8 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\pumps/pumps.c
+[v _initPumps initPumps `(v  1 e 1 0 ]
+{
+"17
+} 0
+"109 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/tmr4.c
+[v _TMR4_Start TMR4_Start `(v  1 e 1 0 ]
+{
+"113
+} 0
+"96 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\step/step.c
+[v _inchForwards inchForwards `(v  1 e 1 0 ]
+{
+[v inchForwards@size size `E14457  1 a 1 wreg ]
+"97
+[v inchForwards@multiplier multiplier `us  1 a 2 28 ]
+"96
+[v inchForwards@size size `E14457  1 a 1 wreg ]
+[v inchForwards@size size `E14457  1 a 1 27 ]
+"136
+} 0
+"138
+[v _inchBackwards inchBackwards `(v  1 e 1 0 ]
+{
+[v inchBackwards@size size `E14457  1 a 1 wreg ]
+"139
+[v inchBackwards@multiplier multiplier `us  1 a 2 28 ]
+"138
+[v inchBackwards@size size `E14457  1 a 1 wreg ]
+[v inchBackwards@size size `E14457  1 a 1 27 ]
+"173
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 16 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 12 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 14 ]
+"53
+} 0
+"5 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\step/step.c
+[v _Step Step `(v  1 e 1 0 ]
+{
+[v Step@dir dir `E14453  1 a 1 wreg ]
+"26
+[v Step@stepsCounter stepsCounter `us  1 a 2 23 ]
+"5
+[v Step@dir dir `E14453  1 a 1 wreg ]
+[v Step@num_steps num_steps `us  1 p 2 18 ]
+[v Step@size size `E14457  1 p 1 20 ]
+"8
+[v Step@dir dir `E14453  1 a 1 22 ]
+"45
+} 0
+"175
+[v _stepperSleep stepperSleep `(v  1 e 1 0 ]
+{
+[v stepperSleep@in in `a  1 a 1 wreg ]
+[v stepperSleep@in in `a  1 a 1 wreg ]
+[v stepperSleep@in in `a  1 a 1 12 ]
+"181
+} 0
+"193
+[v _setStepSize setStepSize `(v  1 e 1 0 ]
+{
+[v setStepSize@size size `E14457  1 a 1 wreg ]
+[v setStepSize@size size `E14457  1 a 1 wreg ]
+[v setStepSize@size size `E14457  1 a 1 14 ]
+"241
+} 0
+"243
+[v _setDirection setDirection `(v  1 e 1 0 ]
+{
+[v setDirection@dir dir `E14453  1 a 1 wreg ]
+[v setDirection@dir dir `E14453  1 a 1 wreg ]
+[v setDirection@dir dir `E14453  1 a 1 12 ]
+"251
+} 0
+"63 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/interrupt_manager.c
+[v _get_INTERRUPT_STEPPER_BREAK_FLAG get_INTERRUPT_STEPPER_BREAK_FLAG `(a  1 e 1 0 ]
+{
+"65
+} 0
+"112 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+{
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART2_Write@txData txData `uc  1 a 1 12 ]
+"121
+} 0
+"71 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/interrupt_manager.c
+[v _get_interruptAction get_interruptAction `(uc  1 e 1 0 ]
+{
+"73
+} 0
+"50 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"64
+} 0
+"65 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"194
+[v _TMR4_SetInterruptHandler TMR4_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR4_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 12 ]
+"196
+} 0
+"61 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"142
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 12 ]
+"144
+} 0
+"64 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/pwm2.c
+[v _PWM2_Initialize PWM2_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"64 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/pwm1.c
+[v _PWM1_Initialize PWM1_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"80 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/mcc.c
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+{
+"94
+} 0
+"57 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"133
+} 0
+"66 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"79 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"97
+} 0
+"149 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/ext_int.c
+[v _EXT_INT_Initialize EXT_INT_Initialize `(v  1 e 1 0 ]
+{
+"187
+} 0
+"140
+[v _INT3_SetInterruptHandler INT3_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT3_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 12 ]
+"142
+} 0
+"114
+[v _INT2_SetInterruptHandler INT2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT2_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 12 ]
+"116
+} 0
+"88
+[v _INT1_SetInterruptHandler INT1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT1_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 12 ]
+"90
+} 0
+"60
+[v _INT0_SetInterruptHandler INT0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v INT0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 12 ]
+"62
+} 0
+"56 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/eusart4.c
+[v _EUSART4_Initialize EUSART4_Initialize `(v  1 e 1 0 ]
+{
+"76
+} 0
+"57 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"64 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"109
+} 0
+"304
+[v _ADCC_SetADIInterruptHandler ADCC_SetADIInterruptHandler `(v  1 e 1 0 ]
+{
+[v ADCC_SetADIInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 12 ]
+"306
+} 0
+"99 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"577
+} 0
+"183 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\step/step.c
+[v _stepperIsAsleep stepperIsAsleep `(a  1 e 1 0 ]
+{
+"191
+} 0
+"43 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\pumps/pumps.c
+[v _setPump2PWM setPump2PWM `(v  1 e 1 0 ]
+{
+[v setPump2PWM@pwm pwm `us  1 p 2 2 ]
+"57
+} 0
+"90 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/pwm2.c
+[v _PWM2_LoadDutyValue PWM2_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM2_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"106
+} 0
+"27 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\pumps/pumps.c
+[v _setPump1PWM setPump1PWM `(v  1 e 1 0 ]
+{
+[v setPump1PWM@pwm pwm `us  1 p 2 2 ]
+"41
+} 0
+"90 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/pwm1.c
+[v _PWM1_LoadDutyValue PWM1_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v PWM1_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"106
+} 0
+"166 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/tmr4.c
+[v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
+{
+"168
+[v TMR4_ISR@CountCallBack CountCallBack `VEui  1 s 2 CountCallBack ]
+"182
+} 0
+"184
+[v _TMR4_CallBack TMR4_CallBack `(v  1 e 1 0 ]
+{
+"192
+} 0
+"198
+[v _TMR4_DefaultInterruptHandler TMR4_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"203
+} 0
+"109
+[v i2_TMR4_Start TMR4_Start `(v  1 e 1 0 ]
+{
+"113
+} 0
+"111 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/adcc.c
+[v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
+{
+[v ADCC_StartConversion@channel channel `E14223  1 a 1 wreg ]
+[v ADCC_StartConversion@channel channel `E14223  1 a 1 wreg ]
+"114
+[v ADCC_StartConversion@channel channel `E14223  1 a 1 0 ]
+"121
+} 0
+"121 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"130
+} 0
+"132
+[v _TMR0_CallBack TMR0_CallBack `(v  1 e 1 0 ]
+{
+"140
+} 0
+"146
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"149
+} 0
+"122 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/ext_int.c
+[v _INT3_ISR INT3_ISR `(v  1 e 1 0 ]
+{
+"128
+} 0
+"131
+[v _INT3_CallBack INT3_CallBack `(v  1 e 1 0 ]
+{
+"138
+} 0
+"144
+[v _INT3_DefaultInterruptHandler INT3_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"147
+} 0
+"96
+[v _INT2_ISR INT2_ISR `(v  1 e 1 0 ]
+{
+"102
+} 0
+"105
+[v _INT2_CallBack INT2_CallBack `(v  1 e 1 0 ]
+{
+"112
+} 0
+"118
+[v _INT2_DefaultInterruptHandler INT2_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"121
+} 0
+"68
+[v _INT1_ISR INT1_ISR `(v  1 e 1 0 ]
+{
+"74
+} 0
+"77
+[v _INT1_CallBack INT1_CallBack `(v  1 e 1 0 ]
+{
+"86
+} 0
+"92
+[v _INT1_DefaultInterruptHandler INT1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"95
+} 0
+"40
+[v _INT0_ISR INT0_ISR `(v  1 e 1 0 ]
+{
+"46
+} 0
+"49
+[v _INT0_CallBack INT0_CallBack `(v  1 e 1 0 ]
+{
+"58
+} 0
+"67 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/interrupt_manager.c
+[v i2_set_INTERRUPT_STEPPER_BREAK_FLAG set_INTERRUPT_STEPPER_BREAK_FLAG `(v  1 e 1 0 ]
+{
+[v i2set_INTERRUPT_STEPPER_BREAK_FLAG@in in `a  1 a 1 wreg ]
+[v i2set_INTERRUPT_STEPPER_BREAK_FLAG@in in `a  1 a 1 wreg ]
+[v i2set_INTERRUPT_STEPPER_BREAK_FLAG@in in `a  1 a 1 0 ]
+"69
+} 0
+"75
+[v i2_reset_interruptAction reset_interruptAction `(v  1 e 1 0 ]
+{
+"77
+} 0
+"64 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/ext_int.c
+[v _INT0_DefaultInterruptHandler INT0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"67
+} 0
+"84 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/eusart2.c
+[v _EUSART2_is_rx_ready EUSART2_is_rx_ready `(a  1 e 1 0 ]
+{
+"87
+} 0
+"94
+[v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
+{
+"110
+} 0
+"295 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/adcc.c
+[v _ADCC_ISR ADCC_ISR `(v  1 e 1 0 ]
+{
+"302
+} 0
+"310
+[v _ADCC_DefaultInterruptHandler ADCC_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"313
+[v ADCC_DefaultInterruptHandler@convertedValue convertedValue `us  1 a 2 6 ]
+"322
+} 0
+"112 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/eusart2.c
+[v i2_EUSART2_Write EUSART2_Write `(v  1 e 1 0 ]
+{
+[v i2EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v i2EUSART2_Write@txData txData `uc  1 a 1 wreg ]
+[v i2EUSART2_Write@txData txData `uc  1 a 1 0 ]
+"121
+} 0
+"111 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/eusart4.c
+[v _EUSART4_Write EUSART4_Write `(v  1 e 1 0 ]
+{
+[v EUSART4_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART4_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART4_Write@txData txData `uc  1 a 1 0 ]
+"118
+} 0
+"129 C:\Users\olivi\Documents\AvkinCodeOutOfGDrive\Birthing\PIC18F67K40\Avbirth-PIC18F-C-Code.X\mcc_generated_files/adcc.c
+[v _ADCC_GetConversionResult ADCC_GetConversionResult `(us  1 e 2 0 ]
+{
+"133
+} 0

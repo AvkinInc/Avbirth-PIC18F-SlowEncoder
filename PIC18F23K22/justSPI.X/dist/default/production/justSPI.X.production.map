@@ -1,0 +1,1204 @@
+Microchip MPLAB XC8 Compiler V2.20
+
+Linker command line:
+
+-W-3 --edf=C:\Program Files\Microchip\xc8\v2.20\pic\dat\en_msgs.txt -cn \
+  -h+dist/default/production\justSPI.X.production.sym \
+  --cmf=dist/default/production\justSPI.X.production.cmf -z -Q18F23K22 \
+  -oC:\Users\olivi\AppData\Local\Temp\sp50.2 --defsym=__MPLAB_BUILD=1 \
+  -Mdist/default/production/justSPI.X.production.map -E1 -ver=XC8 Compiler \
+  --acfsm=1493 -ASTACK=060h-01FFh -pstack=STACK -ACODE=00h-01FFFh \
+  -ACONST=00h-01FFFh -ASMALLCONST=0200h-02FFhx30 -AMEDIUMCONST=0200h-01FFFh \
+  -ACOMRAM=01h-05Fh -AABS1=00h-01FFh -ABIGRAM=01h-01FFh \
+  -ARAM=060h-0FFh,0100h-01FFh -ABANK0=060h-0FFh -ABANK1=0100h-01FFh \
+  -ASFR=0F38h-0F5Fh,0F60h-0FFFh -ACONFIG=0300000h-030000Dh \
+  -AIDLOC=0200000h-0200007h -preset_vec=00h,intcode,intcodelo,powerup,init \
+  -pramtop=0200h -psmallconst=SMALLCONST -pmediumconst=MEDIUMCONST \
+  -pconst=CONST -AFARRAM=00h-00h -AEEDATA=0F00000h-0F000FFh \
+  -peeprom_data=EEDATA \
+  -prdata=COMRAM,nvrram=COMRAM,nvbit=COMRAM,rbss=COMRAM,rbit=COMRAM \
+  -pfarbss=FARRAM,fardata=FARRAM,nvFARRAM=FARRAM \
+  -pintsave_regs=BIGRAM,bigbss=BIGRAM,bigdata=BIGRAM -pbss=RAM \
+  -pidata=CODE,irdata=CODE,ibigdata=CODE,ifardata=CODE -prparam=COMRAM \
+  C:\Users\olivi\AppData\Local\Temp\sp50.o \
+  dist/default/production\justSPI.X.production.o 
+
+Object code version is 3.11
+
+Machine type is 18F23K22
+
+
+
+                Name                               Link     Load   Length Selector   Space Scale
+C:\Users\olivi\AppData\Local\Temp\sp50.o
+                idloc                            200000   200000        8        0       5
+                config                           300000   300000        E        0       4
+                init                                  0        0        4        0       0
+dist/default/production\justSPI.X.production.o
+                idloc                            200000   200000        8        0       5
+                config                           300000   300000        E        0       4
+                smallconst                          200      200       18      100       0
+                text19                              74C      74C       1A      10C       0
+                text18                              766      766       16      10C       0
+                text17                              332      332       FE      10C       0
+                text16                              72C      72C       20      10C       0
+                text15                              618      618       54      10C       0
+                text14                              59E      59E       7A      10C       0
+                text13                              7CC      7CC        A      10C       0
+                text12                              7C2      7C2        A      10C       0
+                text11                              7B8      7B8        A      10C       0
+                text10                              66C      66C       3E      10C       0
+                text9                               7A0      7A0        E      10C       0
+                text8                               6D8      6D8       2C      10C       0
+                text7                               78E      78E       12      10C       0
+                text6                               77C      77C       12      10C       0
+                text5                               7D6      7D6        8      10C       0
+                text4                               518      518       86      10C       0
+                text3                               430      430       E8      10C       0
+                text2                               7AE      7AE        A      10C       0
+                text1                               6AA      6AA       2E      10C       0
+                text0                               218      218      11A      10C       0
+                cstackCOMRAM                          1        1       19        1       1
+                dataCOMRAM                           25       25        2        1       1
+                bssCOMRAM                            22       22        3        1       1
+                cinit                               704      704       28      10C       0
+                nvCOMRAM                             1A       1A        8        1       1
+                idataCOMRAM                         7DE      7DE        2      10C       0
+
+TOTAL           Name                               Link     Load   Length     Space
+        CLASS   STACK          
+
+        CLASS   CODE           
+                init                                  0        0        4         0
+                text19                              74C      74C       1A         0
+                text18                              766      766       16         0
+                text17                              332      332       FE         0
+                text16                              72C      72C       20         0
+                text15                              618      618       54         0
+                text14                              59E      59E       7A         0
+                text13                              7CC      7CC        A         0
+                text12                              7C2      7C2        A         0
+                text11                              7B8      7B8        A         0
+                text10                              66C      66C       3E         0
+                text9                               7A0      7A0        E         0
+                text8                               6D8      6D8       2C         0
+                text7                               78E      78E       12         0
+                text6                               77C      77C       12         0
+                text5                               7D6      7D6        8         0
+                text4                               518      518       86         0
+                text3                               430      430       E8         0
+                text2                               7AE      7AE        A         0
+                text1                               6AA      6AA       2E         0
+                text0                               218      218      11A         0
+                cinit                               704      704       28         0
+                idataCOMRAM                         7DE      7DE        2         0
+
+        CLASS   CONST          
+
+        CLASS   SMALLCONST     
+                smallconst                          200      200       18         0
+
+        CLASS   MEDIUMCONST    
+
+        CLASS   COMRAM         
+                cstackCOMRAM                          1        1       19         1
+                dataCOMRAM                           25       25        2         1
+                bssCOMRAM                            22       22        3         1
+                nvCOMRAM                             1A       1A        8         1
+
+        CLASS   ABS1           
+
+        CLASS   BIGRAM         
+
+        CLASS   RAM            
+
+        CLASS   BANK0          
+
+        CLASS   BANK1          
+
+        CLASS   SFR            
+
+        CLASS   CONFIG         
+                config                           300000   300000        E         4
+
+        CLASS   IDLOC          
+                idloc                            200000   200000        8         5
+
+        CLASS   FARRAM         
+
+        CLASS   EEDATA         
+
+
+
+SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class
+
+                reset_vec                      000000  000004  000004         0       0  CODE    
+                cstackCOMRAM                   000001  000026  000027         1       1  COMRAM  
+                smallconst                     000200  000018  000218       100       0  SMALLCON
+                text0                          000218  0005C8  0007E0       10C       0  CODE    
+
+
+UNUSED ADDRESS RANGES
+
+        Name                Unused          Largest block    Delta
+        BANK0            000060-0000FF               A0
+        BANK1            000100-0001FF              100
+        BIGRAM           000027-0001FF              1D9
+        CODE             000004-0001FF              1FC
+                         0007E0-001FFF             1820
+        COMRAM           000027-00005F               39
+        CONST            000004-0001FF              1FC
+                         0007E0-001FFF             1820
+        EEDATA           F00000-F000FF              100
+        MEDIUMCONST      0007E0-001FFF             1820
+        RAM              000060-0001FF               A0
+        SFR              000F38-000FFF               28
+        SMALLCONST       0007E0-001FFF              100
+        STACK            000060-0001FF              1A0
+
+                                  Symbol Table
+
+DRV8711_SPI_CMD@addr                            cstackCOMRAM 00000A
+DRV8711_SPI_CMD@addr4                           cstackCOMRAM 00000B
+DRV8711_SPI_CMD@cmd                             cstackCOMRAM 000006
+DRV8711_SPI_CMD@cmd12                           cstackCOMRAM 00000C
+DRV8711_SPI_read@addr                           cstackCOMRAM 000006
+DRV8711_SPI_read@addr4                          cstackCOMRAM 000007
+EUSART2_SetErrorHandler@interruptHandler        cstackCOMRAM 000001
+EUSART2_SetFramingErrorHandler@interruptHandler cstackCOMRAM 000001
+EUSART2_SetOverrunErrorHandler@interruptHandler cstackCOMRAM 000001
+EUSART2_Write@txData                            cstackCOMRAM 000001
+SPI1_ExchangeByte@data                          cstackCOMRAM 000001
+SPI1_WriteByte@byte                             cstackCOMRAM 000001
+_ANSELA                                         (abs)        000F38
+_ANSELB                                         (abs)        000F39
+_ANSELC                                         (abs)        000F3A
+_BAUDCON2                                       (abs)        000F70
+_DRV8711_SPI_CMD                                text4        000518
+_DRV8711_SPI_read                               text14       00059E
+_EUSART2_DefaultErrorHandler                    (abs)        000000
+_EUSART2_DefaultFramingErrorHandler             (abs)        000000
+_EUSART2_DefaultOverrunErrorHandler             (abs)        000000
+_EUSART2_ErrorHandler                           nvCOMRAM     00001C
+_EUSART2_FramingErrorHandler                    nvCOMRAM     000020
+_EUSART2_Initialize                             text10       00066C
+_EUSART2_OverrunErrorHandler                    nvCOMRAM     00001E
+_EUSART2_SetErrorHandler                        text13       0007CC
+_EUSART2_SetFramingErrorHandler                 text12       0007C2
+_EUSART2_SetOverrunErrorHandler                 text11       0007B8
+_EUSART2_Write                                  text18       000766
+_INTCON2bits                                    (abs)        000FF1
+_INTCONbits                                     (abs)        000FF2
+_LATA                                           (abs)        000F89
+_LATB                                           (abs)        000F8A
+_LATBbits                                       (abs)        000F8A
+_LATC                                           (abs)        000F8B
+_LATCbits                                       (abs)        000F8B
+_OSCCON                                         (abs)        000FD3
+_OSCCON2                                        (abs)        000FD2
+_OSCILLATOR_Initialize                          text9        0007A0
+_OSCTUNE                                        (abs)        000F9B
+_PIN_MANAGER_Initialize                         text8        0006D8
+_PIR1bits                                       (abs)        000F9E
+_PIR3bits                                       (abs)        000FA4
+_RCREG2                                         (abs)        000F74
+_RCSTA2                                         (abs)        000F71
+_RCSTA2bits                                     (abs)        000F71
+_SPBRG2                                         (abs)        000F75
+_SPBRGH2                                        (abs)        000F76
+_SPI1_ExchangeByte                              text19       00074C
+_SPI1_Initialize                                text7        00078E
+_SPI1_WriteByte                                 text5        0007D6
+_SSP1ADD                                        (abs)        000FC8
+_SSP1BUF                                        (abs)        000FC9
+_SSP1CON1                                       (abs)        000FC6
+_SSP1CON1bits                                   (abs)        000FC6
+_SSP1CON2                                       (abs)        000FC5
+_SSP1STAT                                       (abs)        000FC7
+_SYSTEM_Initialize                              text6        00077C
+_TRISA                                          (abs)        000F92
+_TRISB                                          (abs)        000F93
+_TRISC                                          (abs)        000F94
+_TRISCbits                                      (abs)        000F94
+_TXREG2                                         (abs)        000F73
+_TXSTA2                                         (abs)        000F72
+_TXSTA2bits                                     (abs)        000F72
+_WPUB                                           (abs)        000F61
+__HRAM                                          (abs)        000000
+__Habs1                                         abs1         000000
+__Hbank0                                        bank0        000000
+__Hbank1                                        bank1        000000
+__Hbigbss                                       bigbss       000000
+__Hbigdata                                      bigdata      000000
+__Hbigram                                       bigram       000000
+__Hbss                                          bss          000000
+__HbssCOMRAM                                    bssCOMRAM    000000
+__Hcinit                                        cinit        000000
+__Hclrtext                                      clrtext      000000
+__Hcomram                                       comram       000000
+__Hconfig                                       config       30000E
+__Hconst                                        const        000000
+__HcstackCOMRAM                                 cstackCOMRAM 000000
+__Hdata                                         data         000000
+__HdataCOMRAM                                   dataCOMRAM   000000
+__Heeprom_data                                  eeprom_data  000000
+__Hfarbss                                       farbss       000000
+__Hfardata                                      fardata      000000
+__Hibigdata                                     ibigdata     000000
+__Hidata                                        idata        000000
+__HidataCOMRAM                                  idataCOMRAM  000000
+__Hidloc                                        idloc        200008
+__Hifardata                                     ifardata     000000
+__Hinit                                         init         000004
+__Hintcode                                      intcode      000000
+__Hintcode_body                                 intcode_body 000000
+__Hintcodelo                                    intcodelo    000000
+__Hintentry                                     intentry     000000
+__Hintret                                       intret       000000
+__Hintsave_regs                                 intsave_regs 000000
+__Hirdata                                       irdata       000000
+__Hmediumconst                                  mediumconst  000000
+__HnvCOMRAM                                     nvCOMRAM     000000
+__HnvFARRAM                                     nvFARRAM     000000
+__Hnvbit                                        nvbit        000000
+__Hnvrram                                       nvrram       000000
+__Hparam                                        rparam       000000
+__Hpowerup                                      powerup      000000
+__Hram                                          ram          000000
+__Hramtop                                       ramtop       000200
+__Hrbit                                         rbit         000000
+__Hrbss                                         rbss         000000
+__Hrdata                                        rdata        000000
+__Hreset_vec                                    reset_vec    000000
+__Hrparam                                       rparam       000000
+__Hsfr                                          sfr          000000
+__Hsmallconst                                   smallconst   000218
+__Hspace_0                                      (abs)        0007E0
+__Hspace_1                                      (abs)        000027
+__Hspace_2                                      (abs)        000000
+__Hspace_4                                      (abs)        60000E
+__Hstack                                        stack        000000
+__Hstruct                                       struct       000000
+__Htemp                                         temp         000000
+__Htext                                         text         000000
+__Htext0                                        text0        000000
+__Htext1                                        text1        000000
+__Htext10                                       text10       000000
+__Htext11                                       text11       000000
+__Htext12                                       text12       000000
+__Htext13                                       text13       000000
+__Htext14                                       text14       000000
+__Htext15                                       text15       000000
+__Htext16                                       text16       000000
+__Htext17                                       text17       000000
+__Htext18                                       text18       000000
+__Htext19                                       text19       000000
+__Htext2                                        text2        000000
+__Htext20                                       text20       000000
+__Htext3                                        text3        000000
+__Htext4                                        text4        000000
+__Htext5                                        text5        000000
+__Htext6                                        text6        000000
+__Htext7                                        text7        000000
+__Htext8                                        text8        000000
+__Htext9                                        text9        000000
+__LRAM                                          (abs)        000001
+__Labs1                                         abs1         000000
+__Lbank0                                        bank0        000000
+__Lbank1                                        bank1        000000
+__Lbigbss                                       bigbss       000000
+__Lbigdata                                      bigdata      000000
+__Lbigram                                       bigram       000000
+__Lbss                                          bss          000000
+__LbssCOMRAM                                    bssCOMRAM    000000
+__Lcinit                                        cinit        000000
+__Lclrtext                                      clrtext      000000
+__Lcomram                                       comram       000000
+__Lconfig                                       config       000000
+__Lconst                                        const        000000
+__LcstackCOMRAM                                 cstackCOMRAM 000000
+__Ldata                                         data         000000
+__LdataCOMRAM                                   dataCOMRAM   000000
+__Leeprom_data                                  eeprom_data  000000
+__Lfarbss                                       farbss       000000
+__Lfardata                                      fardata      000000
+__Libigdata                                     ibigdata     000000
+__Lidata                                        idata        000000
+__LidataCOMRAM                                  idataCOMRAM  000000
+__Lidloc                                        idloc        000000
+__Lifardata                                     ifardata     000000
+__Linit                                         init         000000
+__Lintcode                                      intcode      000000
+__Lintcode_body                                 intcode_body 000000
+__Lintcodelo                                    intcodelo    000000
+__Lintentry                                     intentry     000000
+__Lintret                                       intret       000000
+__Lintsave_regs                                 intsave_regs 000000
+__Lirdata                                       irdata       000000
+__Lmediumconst                                  mediumconst  000000
+__LnvCOMRAM                                     nvCOMRAM     000000
+__LnvFARRAM                                     nvFARRAM     000000
+__Lnvbit                                        nvbit        000000
+__Lnvrram                                       nvrram       000000
+__Lparam                                        rparam       000000
+__Lpowerup                                      powerup      000000
+__Lram                                          ram          000000
+__Lramtop                                       ramtop       000200
+__Lrbit                                         rbit         000000
+__Lrbss                                         rbss         000000
+__Lrdata                                        rdata        000000
+__Lreset_vec                                    reset_vec    000000
+__Lrparam                                       rparam       000000
+__Lsfr                                          sfr          000000
+__Lsmallconst                                   smallconst   000200
+__Lspace_0                                      (abs)        000000
+__Lspace_1                                      (abs)        000000
+__Lspace_2                                      (abs)        000000
+__Lspace_4                                      (abs)        000000
+__Lstack                                        stack        000000
+__Lstruct                                       struct       000000
+__Ltemp                                         temp         000000
+__Ltext                                         text         000000
+__Ltext0                                        text0        000000
+__Ltext1                                        text1        000000
+__Ltext10                                       text10       000000
+__Ltext11                                       text11       000000
+__Ltext12                                       text12       000000
+__Ltext13                                       text13       000000
+__Ltext14                                       text14       000000
+__Ltext15                                       text15       000000
+__Ltext16                                       text16       000000
+__Ltext17                                       text17       000000
+__Ltext18                                       text18       000000
+__Ltext19                                       text19       000000
+__Ltext2                                        text2        000000
+__Ltext20                                       text20       000000
+__Ltext3                                        text3        000000
+__Ltext4                                        text4        000000
+__Ltext5                                        text5        000000
+__Ltext6                                        text6        000000
+__Ltext7                                        text7        000000
+__Ltext8                                        text8        000000
+__Ltext9                                        text9        000000
+__S0                                            (abs)        0007E0
+__S1                                            (abs)        000027
+__S2                                            (abs)        000000
+__S4                                            (abs)        000000
+__S5                                            (abs)        000000
+___inthi_sp                                     stack        000000
+___intlo_sp                                     stack        000000
+___param_bank                                   (abs)        000000
+___rparam_used                                  (abs)        000001
+___sp                                           stack        000000
+__accesstop                                     (abs)        000060
+__activetblptr                                  (abs)        000002
+__end_of_DRV8711_SPI_CMD                        text4        00059E
+__end_of_DRV8711_SPI_read                       text14       000618
+__end_of_EUSART2_Initialize                     text10       0006AA
+__end_of_EUSART2_SetErrorHandler                text13       0007D6
+__end_of_EUSART2_SetFramingErrorHandler         text12       0007CC
+__end_of_EUSART2_SetOverrunErrorHandler         text11       0007C2
+__end_of_EUSART2_Write                          text18       00077C
+__end_of_OSCILLATOR_Initialize                  text9        0007AE
+__end_of_PIN_MANAGER_Initialize                 text8        000704
+__end_of_SPI1_ExchangeByte                      text19       000766
+__end_of_SPI1_Initialize                        text7        0007A0
+__end_of_SPI1_WriteByte                         text5        0007DE
+__end_of_SYSTEM_Initialize                      text6        00078E
+__end_of__initialization                        cinit        000722
+__end_of_main                                   text0        000332
+__end_of_setStepSize                            text3        000518
+__end_of_setUartFunction                        text2        0007B8
+__end_of_spi1_configuration                     smallconst   000205
+__end_of_stepperSleep                           text1        0006D8
+__end_of_write1byteHex                          text17       000430
+__end_of_writeByte                              text16       00074C
+__end_of_writeString                            text15       00066C
+__initialization                                cinit        000704
+__mediumconst                                   mediumconst  000000
+__pbssCOMRAM                                    bssCOMRAM    000022
+__pcinit                                        cinit        000704
+__pcstackCOMRAM                                 cstackCOMRAM 000001
+__pdataCOMRAM                                   dataCOMRAM   000025
+__pidataCOMRAM                                  idataCOMRAM  0007DE
+__pnvCOMRAM                                     nvCOMRAM     00001A
+__psmallconst                                   smallconst   000200
+__ptext0                                        text0        000218
+__ptext1                                        text1        0006AA
+__ptext10                                       text10       00066C
+__ptext11                                       text11       0007B8
+__ptext12                                       text12       0007C2
+__ptext13                                       text13       0007CC
+__ptext14                                       text14       00059E
+__ptext15                                       text15       000618
+__ptext16                                       text16       00072C
+__ptext17                                       text17       000332
+__ptext18                                       text18       000766
+__ptext19                                       text19       00074C
+__ptext2                                        text2        0007AE
+__ptext20                                       text20       000000
+__ptext3                                        text3        000430
+__ptext4                                        text4        000518
+__ptext5                                        text5        0007D6
+__ptext6                                        text6        00077C
+__ptext7                                        text7        00078E
+__ptext8                                        text8        0006D8
+__ptext9                                        text9        0007A0
+__ramtop                                        ramtop       000200
+__size_of_DRV8711_SPI_CMD                       (abs)        000000
+__size_of_DRV8711_SPI_read                      (abs)        000000
+__size_of_EUSART2_Initialize                    (abs)        000000
+__size_of_EUSART2_SetErrorHandler               (abs)        000000
+__size_of_EUSART2_SetFramingErrorHandler        (abs)        000000
+__size_of_EUSART2_SetOverrunErrorHandler        (abs)        000000
+__size_of_EUSART2_Write                         (abs)        000000
+__size_of_OSCILLATOR_Initialize                 (abs)        000000
+__size_of_PIN_MANAGER_Initialize                (abs)        000000
+__size_of_SPI1_ExchangeByte                     (abs)        000000
+__size_of_SPI1_Initialize                       (abs)        000000
+__size_of_SPI1_WriteByte                        (abs)        000000
+__size_of_SYSTEM_Initialize                     (abs)        000000
+__size_of_main                                  (abs)        000000
+__size_of_setStepSize                           (abs)        000000
+__size_of_setUartFunction                       (abs)        000000
+__size_of_stepperSleep                          (abs)        000000
+__size_of_write1byteHex                         (abs)        000000
+__size_of_writeByte                             (abs)        000000
+__size_of_writeString                           (abs)        000000
+__smallconst                                    smallconst   000200
+_control_bits                                   dataCOMRAM   000025
+_control_bits_read_high                         bssCOMRAM    000023
+_control_bits_read_low                          bssCOMRAM    000022
+_eusart2RxLastError                             bssCOMRAM    000024
+_main                                           text0        000218
+_setStepSize                                    text3        000430
+_setUartFunction                                text2        0007AE
+_spi1_configuration                             smallconst   000201
+_stepperSleep                                   text1        0006AA
+_uart_write                                     nvCOMRAM     00001A
+_write1byteHex                                  text17       000332
+_writeByte                                      text16       00072C
+_writeString                                    text15       000618
+end_of_initialization                           cinit        000722
+intlevel0                                       text         000000
+intlevel1                                       text         000000
+intlevel2                                       text         000000
+intlevel3                                       text         000000
+main@i                                          cstackCOMRAM 000018
+setStepSize@size                                cstackCOMRAM 000014
+setStepSize@step_size_bits                      cstackCOMRAM 000015
+setUartFunction@uart_write_local_function       cstackCOMRAM 000001
+stackhi                                         (abs)        0001FF
+stacklo                                         (abs)        000060
+start                                           init         000000
+start_initialization                            cinit        000704
+stepperSleep@in                                 cstackCOMRAM 00000E
+write1byteHex@in                                cstackCOMRAM 000003
+writeByte@in                                    cstackCOMRAM 000002
+writeString@charIn                              cstackCOMRAM 000004
+writeString@message                             cstackCOMRAM 000002
+
+
+FUNCTION INFORMATION:
+
+ *************** function _main *****************
+ Defined at:
+		line 48 in file "main.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+  i               2   23[COMRAM] int 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, tosl, tblptrl, tblptrh, tblptru, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         2       0       0
+      Temps:          2       0       0
+      Totals:         4       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels required when called:    4
+ This function calls:
+		_DRV8711_SPI_read
+		_SYSTEM_Initialize
+		_setStepSize
+		_setUartFunction
+		_stepperSleep
+		_writeString
+ This function is called by:
+		Startup code after reset
+ This function uses a non-reentrant model
+
+
+ *************** function _stepperSleep *****************
+ Defined at:
+		line 236 in file "step/step.c"
+ Parameters:    Size  Location     Type
+  in              1    wreg     _Bool 
+ Auto vars:     Size  Location     Type
+  in              1   13[COMRAM] _Bool 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, tosl, tblptrl, tblptrh, tblptru, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         1       0       0
+      Temps:          0       0       0
+      Totals:         1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_DRV8711_SPI_CMD
+ This function is called by:
+		_main
+		_Step
+		_slowStepTest
+		_moveUntilZ
+		_calibrate
+ This function uses a non-reentrant model
+
+
+ *************** function _setUartFunction *****************
+ Defined at:
+		line 11 in file "EUSART_Helpers/EUSART_Helpers.c"
+ Parameters:    Size  Location     Type
+  uart_write_l    2    0[COMRAM] PTR FTN()void 
+		 -> EUSART2_Write(1), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         2       0       0
+      Locals:         0       0       0
+      Temps:          0       0       0
+      Totals:         2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _setStepSize *****************
+ Defined at:
+		line 264 in file "step/step.c"
+ Parameters:    Size  Location     Type
+  size            1    wreg     enum E6122
+ Auto vars:     Size  Location     Type
+  size            1   19[COMRAM] enum E6122
+  step_size_bi    1   20[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, tosl, tblptrl, tblptrh, tblptru, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         2       0       0
+      Temps:          6       0       0
+      Totals:         8       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    3
+ This function calls:
+		_DRV8711_SPI_CMD
+ This function is called by:
+		_main
+		_Step
+		_slowStepTest
+		_moveUntilZ
+		_calibrate
+ This function uses a non-reentrant model
+
+
+ *************** function _DRV8711_SPI_CMD *****************
+ Defined at:
+		line 85 in file "step/step.c"
+ Parameters:    Size  Location     Type
+  addr            1    wreg     unsigned char 
+  cmd             2    5[COMRAM] unsigned short 
+ Auto vars:     Size  Location     Type
+  addr            1    9[COMRAM] unsigned char 
+  cmd12           2   11[COMRAM] unsigned short 
+  addr4           1   10[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, tosl, tblptrl, tblptrh, tblptru, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         2       0       0
+      Locals:         4       0       0
+      Temps:          2       0       0
+      Totals:         8       0       0
+Total ram usage:        8 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_SPI1_WriteByte
+		_write1byteHex
+		_writeByte
+		_writeString
+ This function is called by:
+		_stepperSleep
+		_setStepSize
+		_initDRV8711
+ This function uses a non-reentrant model
+
+
+ *************** function _SPI1_WriteByte *****************
+ Defined at:
+		line 131 in file "mcc_generated_files/spi1.c"
+ Parameters:    Size  Location     Type
+  byte            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  byte            1    0[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         1       0       0
+      Temps:          0       0       0
+      Totals:         1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_DRV8711_SPI_CMD
+ This function uses a non-reentrant model
+
+
+ *************** function _SYSTEM_Initialize *****************
+ Defined at:
+		line 50 in file "mcc_generated_files/mcc.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         0       0       0
+      Temps:          0       0       0
+      Totals:         0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_EUSART2_Initialize
+		_OSCILLATOR_Initialize
+		_PIN_MANAGER_Initialize
+		_SPI1_Initialize
+ This function is called by:
+		_main
+ This function uses a non-reentrant model
+
+
+ *************** function _SPI1_Initialize *****************
+ Defined at:
+		line 62 in file "mcc_generated_files/spi1.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         0       0       0
+      Temps:          0       0       0
+      Totals:         0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_SYSTEM_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _PIN_MANAGER_Initialize *****************
+ Defined at:
+		line 55 in file "mcc_generated_files/pin_manager.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         0       0       0
+      Temps:          0       0       0
+      Totals:         0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_SYSTEM_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _OSCILLATOR_Initialize *****************
+ Defined at:
+		line 59 in file "mcc_generated_files/mcc.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         0       0       0
+      Temps:          0       0       0
+      Totals:         0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_SYSTEM_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _EUSART2_Initialize *****************
+ Defined at:
+		line 66 in file "mcc_generated_files/eusart2.c"
+ Parameters:    Size  Location     Type
+		None
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         0       0       0
+      Temps:          0       0       0
+      Totals:         0       0       0
+Total ram usage:        0 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		_EUSART2_SetErrorHandler
+		_EUSART2_SetFramingErrorHandler
+		_EUSART2_SetOverrunErrorHandler
+ This function is called by:
+		_SYSTEM_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _EUSART2_SetOverrunErrorHandler *****************
+ Defined at:
+		line 161 in file "mcc_generated_files/eusart2.c"
+ Parameters:    Size  Location     Type
+  interruptHan    2    0[COMRAM] PTR FTN()void 
+		 -> EUSART2_DefaultOverrunErrorHandler(1), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         2       0       0
+      Locals:         0       0       0
+      Temps:          0       0       0
+      Totals:         2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_EUSART2_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _EUSART2_SetFramingErrorHandler *****************
+ Defined at:
+		line 157 in file "mcc_generated_files/eusart2.c"
+ Parameters:    Size  Location     Type
+  interruptHan    2    0[COMRAM] PTR FTN()void 
+		 -> EUSART2_DefaultFramingErrorHandler(1), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         2       0       0
+      Locals:         0       0       0
+      Temps:          0       0       0
+      Totals:         2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_EUSART2_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _EUSART2_SetErrorHandler *****************
+ Defined at:
+		line 165 in file "mcc_generated_files/eusart2.c"
+ Parameters:    Size  Location     Type
+  interruptHan    2    0[COMRAM] PTR FTN()void 
+		 -> EUSART2_DefaultErrorHandler(1), 
+ Auto vars:     Size  Location     Type
+		None
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         2       0       0
+      Locals:         0       0       0
+      Temps:          0       0       0
+      Totals:         2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_EUSART2_Initialize
+ This function uses a non-reentrant model
+
+
+ *************** function _DRV8711_SPI_read *****************
+ Defined at:
+		line 108 in file "step/step.c"
+ Parameters:    Size  Location     Type
+  addr            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  addr            1    5[COMRAM] unsigned char 
+  addr4           1    6[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, tosl, tblptrl, tblptrh, tblptru, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         2       0       0
+      Temps:          0       0       0
+      Totals:         2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    2
+ This function calls:
+		_SPI1_ExchangeByte
+		_write1byteHex
+		_writeByte
+		_writeString
+ This function is called by:
+		_main
+		_Step
+ This function uses a non-reentrant model
+
+
+ *************** function _writeString *****************
+ Defined at:
+		line 104 in file "EUSART_Helpers/EUSART_Helpers.c"
+ Parameters:    Size  Location     Type
+  message         2    1[COMRAM] PTR unsigned char 
+		 -> STR_5(3), STR_4(3), STR_3(5), STR_2(3), 
+		 -> STR_1(6), 
+ Auto vars:     Size  Location     Type
+  charIn          2    3[COMRAM] PTR unsigned char 
+		 -> STR_5(3), STR_4(3), STR_3(5), STR_2(3), 
+		 -> STR_1(6), 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, tosl, tblptrl, tblptrh, tblptru, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         2       0       0
+      Locals:         2       0       0
+      Temps:          0       0       0
+      Totals:         4       0       0
+Total ram usage:        4 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Absolute function
+		_EUSART2_Write
+ This function is called by:
+		_main
+		_DRV8711_SPI_CMD
+		_DRV8711_SPI_read
+ This function uses a non-reentrant model
+
+
+ *************** function _writeByte *****************
+ Defined at:
+		line 15 in file "EUSART_Helpers/EUSART_Helpers.c"
+ Parameters:    Size  Location     Type
+  in              1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  in              1    1[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, pclath, tosl, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         1       0       0
+      Temps:          0       0       0
+      Totals:         1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Absolute function
+		_EUSART2_Write
+ This function is called by:
+		_DRV8711_SPI_CMD
+		_DRV8711_SPI_read
+ This function uses a non-reentrant model
+
+
+ *************** function _write1byteHex *****************
+ Defined at:
+		line 19 in file "EUSART_Helpers/EUSART_Helpers.c"
+ Parameters:    Size  Location     Type
+  in              1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  in              1    2[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg, status,2, status,0, pclath, tosl, cstack
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         1       0       0
+      Temps:          1       0       0
+      Totals:         2       0       0
+Total ram usage:        2 bytes
+ Hardware stack levels used:    1
+ Hardware stack levels required when called:    1
+ This function calls:
+		Absolute function
+		_EUSART2_Write
+ This function is called by:
+		_DRV8711_SPI_CMD
+		_DRV8711_SPI_read
+ This function uses a non-reentrant model
+
+
+ *************** function _EUSART2_Write *****************
+ Defined at:
+		line 132 in file "mcc_generated_files/eusart2.c"
+ Parameters:    Size  Location     Type
+  txData          1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  txData          1    0[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      void 
+ Registers used:
+		wreg
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         1       0       0
+      Temps:          0       0       0
+      Totals:         1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_main
+		_writeString
+		_writeByte
+		_write1byteHex
+		_write2bytesHex
+		_write4bytesHex
+ This function uses a non-reentrant model
+
+
+ *************** function _SPI1_ExchangeByte *****************
+ Defined at:
+		line 92 in file "mcc_generated_files/spi1.c"
+ Parameters:    Size  Location     Type
+  data            1    wreg     unsigned char 
+ Auto vars:     Size  Location     Type
+  data            1    0[COMRAM] unsigned char 
+ Return value:  Size  Location     Type
+                  1    wreg      unsigned char 
+ Registers used:
+		wreg, status,2
+ Tracked objects:
+		On entry : 
+		On exit  : 
+		Unchanged: 
+ Data sizes:     COMRAM   BANK0   BANK1
+      Params:         0       0       0
+      Locals:         1       0       0
+      Temps:          0       0       0
+      Totals:         1       0       0
+Total ram usage:        1 bytes
+ Hardware stack levels used:    1
+ This function calls:
+		Nothing
+ This function is called by:
+		_DRV8711_SPI_read
+		_SPI1_WriteBlock
+		_SPI1_ReadBlock
+ This function uses a non-reentrant model
+
+
+
+MODULE INFORMATION
+
+Module		Function		Class		Link	Load	Size
+EUSART_Helpers/EUSART_Helpers.c
+		_writeString   		CODE           	0618	0000	85
+		_setUartFunction		CODE           	07AE	0000	11
+		_write1byteHex 		CODE           	0332	0000	255
+		_writeByte     		CODE           	072C	0000	33
+
+EUSART_Helpers/EUSART_Helpers.c estimated size: 384
+
+mcc_generated_files/eusart2.c
+		_EUSART2_SetOverrunErrorHandler		CODE           	07B8	0000	11
+		_EUSART2_SetErrorHandler		CODE           	07CC	0000	11
+		_EUSART2_Write 		CODE           	0766	0000	23
+		_EUSART2_Initialize		CODE           	066C	0000	63
+		_EUSART2_SetFramingErrorHandler		CODE           	07C2	0000	11
+
+mcc_generated_files/eusart2.c estimated size: 119
+
+mcc_generated_files/pin_manager.c
+		_PIN_MANAGER_Initialize		CODE           	06D8	0000	45
+
+mcc_generated_files/pin_manager.c estimated size: 45
+
+mcc_generated_files/spi1.c
+		_SPI1_WriteByte		CODE           	07D6	0000	9
+		_SPI1_Initialize		CODE           	078E	0000	19
+		_SPI1_ExchangeByte		CODE           	074C	0000	27
+
+mcc_generated_files/spi1.c estimated size: 55
+
+step/step.c
+		_DRV8711_SPI_read		CODE           	059E	0000	123
+		_stepperSleep  		CODE           	06AA	0000	47
+		_setStepSize   		CODE           	0430	0000	233
+		_DRV8711_SPI_CMD		CODE           	0518	0000	135
+
+step/step.c estimated size: 538
+
+shared
+		__initialization		CODE           	0704	0000	31
+		_spi1_configuration		SMALLCONST     	0201	0000	5
+
+shared estimated size: 36
+
+mcc_generated_files/mcc.c
+		_OSCILLATOR_Initialize		CODE           	07A0	0000	15
+		_SYSTEM_Initialize		CODE           	077C	0000	19
+
+mcc_generated_files/mcc.c estimated size: 34
+
+main.c
+		_main          		CODE           	0218	0000	283
+
+main.c estimated size: 283
+
