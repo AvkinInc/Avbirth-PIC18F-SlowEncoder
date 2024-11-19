@@ -1,0 +1,1 @@
+In the past we have recieved encoders which tick 8x slower than the rate we use for production. The tick rate can be visually monitered via the onboard indication diode: D5. When this issue happens please program the board with the Avbirth-PIC18LF45K40-SlowEncoder.X project.
